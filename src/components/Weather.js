@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Weather({temp}) {
+function Weather({city, temp}) {
     return (
         <div>
-            Temperature is {temp} &deg; F
+            {city} Temperature is {temp} &deg; F
         </div>
     )
 }

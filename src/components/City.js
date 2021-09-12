@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function City({update}) {
-    const [city, setCity] = useState('Phoenix');
+    const [city, setCity] = useState('Tokyo');
     return (
         <div>
             City
